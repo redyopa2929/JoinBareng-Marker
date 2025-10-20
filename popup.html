@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JoinBareng Marker</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 12px; width: 300px; }
+      h3 { margin: 0 0 10px; font-size: 16px; }
+      .row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #eee; }
+      .row:last-child { border-bottom: none; }
+      .name { font-weight: 600; }
+      .save { margin-top: 12px; width: 100%; padding: 9px 12px; border: 0; border-radius: 10px; background: #111827; color: #fff; font-weight: 800; cursor: pointer; }
+      .foot { margin-top: 8px; font-size: 12px; opacity: .7; }
+      .links { margin-top: 6px; }
+      .links a { font-size: 12px; margin-right: 8px; }
+    </style>
+  </head>
+  <body>
+    <h3>JoinBareng Marker</h3>
+    <div id="list"></div>
+    <button class="save" id="saveBtn">Simpan</button>
+    <div class="foot">Aktif/nonaktifkan banner per layanan.</div>
+    <div class="links">
+      <a href="https://joinbareng.com" target="_blank" rel="noopener">joinbareng.com</a>
+    </div>
+
+    <script src="services.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
